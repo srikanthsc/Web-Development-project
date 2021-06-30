@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>   
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="shortcut icon"  href="logo/logo2.ico"  type="image/x-icon">
+        <title>ShopExpress.fr    </title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .banner-box{
+    width:100%;
+     height: 40vh;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.banner-text-container{
+    width:80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+ 
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+ 
+.banner-text strong{
+    color: #333333;
+    font-size: 3rem;
+    line-height: 55px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+ 
+.banner-text span{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: #666666;
+    font-size: 1.2rem;
+}
+ 
+.banner-btn{
+    width:170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #0b9d8a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 14px;
+}
+.banner-text strong font{
+    color: #0b9d8a;
+}
+
+        footer {
+    display: flex ;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    
+    bottom:0;
+}
+ul1,li1 { margin:0 ; padding:0 }
+div#conteneur {      
+	width:660px; /* Soit 220px * 3 images */
+	height:220px;
+	overflow:hidden;
+	margin: 2em auto;
+	border: 1px solid black;
+	box-shadow: 0px 0px 25px 10px gray;
+}
+ul1{
+	display: table;
+	width:1540px; /* Soit 220px * 7 images */
+	animation: slide-image 20s ease 0s infinite alternate;
+}
+ul1 li1{
+	display: table-cell;
+	width:220px;
+	height:220px;
+	text-align:center;
+	vertical-align:middle;
+}
+@keyframes slide-image{
+	from,20%  {margin-left:   0px;}
+	20%,40%   {margin-left:-220px;}
+	40%,60%   {margin-left:-440px;}
+	60%,80%   {margin-left:-660px;}
+	80%,to    {margin-left:-880px;}
+}
+.fa{
+    color: black;
+    font-size: 50px;
+
+}
+li3 {
+list-style: none;
+
+}
+.video {text-align: center;width:90%;margin-left:auto;margin-right:auto;margin-top:80px;}
+.video iframe{
+  border:none;
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+}
+input{
+  float:right ;
+}
+
+
+
+
+
+
+    
+
+        </style>
+        
+    </head>
+    <body style ="background-color:#b1aeae">
+      <a href="Accueil.html"
+      <P></P><center><IMG src="logo/logo.png" alt="logo"></center>
+      </a>
+      <!--   <title>menu</title>  -->
+        <ul class="menu">
+              <li>
+                <a href="Accueil.html" class="actif">Accueil</a>
+              </li>
+              <li>
+                <a href="Voiture.html">Voitures</a>
+              </li>
+              <li>
+                <a href="Telephone.html">Telephone</a>
+              </li>
+              <li>
+                <a href="Chaussure.html">Chaussure</a>
+              </li>
+              <li>
+                <a href="Livre.html">Livre</a>
+              </li>
+              <li>
+                <a href="Sac.html">Sac</a>
+              </li>
+              <li>
+                <a href="Jeuxvideo.html">Jeux video </a>
+              </li>
+              <li>
+                <a href="Film.html">Film</a>
+              </li>
+              <li>
+                <a href="Pc.html">Pc</a>
+              </li>
+              <li>
+                <a href="Vetement.html">Vetement</a>
+              </li>
+              <li>
+                <a href="../phplogin/../phplogin/index.php">Mon compte</a>
+              </li>
+              <li>
+                <a href="Paniers.html">Mon panier</a>
+              </li>
+              <li>
+                <a href="../phplogin/register.html">Enregistrer</a>
+              </li>
+
+              
+                 
+                  
+              
+              
+        </ul>
+        
+        <body>
+          <P><HR NOSHADE></P>
+          <marquee behavior="scroll">
+           <strong> Le vrai prix des bonnes choses</strong> 
+         </marquee>
+         <P><HR NOSHADE></P>
+         <p></p>
+          <center><input type="button" onclick="openPage()" value="recherche"></center>
+        <center><input type="search" value="" id="search" onchange="openPage()"></center>
+        <br>
+        <br>
+        <div class="dir">
+          <center><FONT size="10pt">Bienvenue  </FONT></center>
+        <center><img style="BORDER-TOP-COLOR: #01BBFE; BORDER-LEFT-COLOR: #FE0101; BORDER-RIGHT-COLOR: #20F334;
+          BORDER-BOTTOM-COLOR: #000000;"  border="10" src="../web/logo/award.PNG" /></center>
+        </br>
+      </br>
+        </div>
+        <!--moteur de recherche debut-->
+        <script>
+          function openPage() {
+            var a = document.getElementById("search").value;
+            var b =document.getElementById("search").value;
+            var c =document.getElementById("search").value;
+            var d =document.getElementById("search").value;
+            var e =document.getElementById("search").value;
+            var f =document.getElementById("search").value;
+            var g =document.getElementById("search").value;
+            var h =document.getElementById("search").value;
+            var i =document.getElementById("search").value;
+            var j =document.getElementById("search").value;
+            var k =document.getElementById("search").value;
+            var l =document.getElementById("search").value;
+            var m =document.getElementById("search").value;
+            var n =document.getElementById("search").value;
+            var o =document.getElementById("search").value;
+            var p =document.getElementById("search").value;
+            var q =document.getElementById("search").value;
+            var r =document.getElementById("search").value;
+            var s =document.getElementById("search").value;
+            var t =document.getElementById("search").value;
+            var u =document.getElementById("search").value;
+            var v =document.getElementById("search").value;
+            var w =document.getElementById("search").value;
+            var x =document.getElementById("search").value;
+            var y =document.getElementById("search").value;
+            var z =document.getElementById("search").value;
+            
+            
+            
+
+            if (a === "ferrari") {
+                window.open("voiture/Ferrari.html");
+            }
+            if (b === "lamborghini") {
+                window.open("voiture/Lamborghini.html");
+            }
+            
+
+            if (c === "bmw","voiture","suzuki","honda") {
+                window.open("voiture.html");
+            }
+            if (d === "tesla") {
+                window.open("voiture/Tesla.html");
+            }
+
+
+            if (e === "hummer") {
+                window.open("voiture/Hummer.html");
+            }
+
+
+            if (f === "mercedes") {
+                window.open("voiture/Hummer.html");
+            }
+
+
+            if (g === "peugeot") {
+                window.open("voiture/Peugeot.html");
+            }
+
+
+            if (h === "porsche") {
+                window.open("voiture/Porsche.html");
+            }
+
+
+            if (i === "rollsroyce") {
+                window.open("voiture/Rollsroyce.html");
+            }
+            if (j === "huawei") {
+                window.open("telephone/Huawei.html");
+            }
+            if (k === "iphone") {
+                window.open("telephone/Iphone.html");
+            }
+
+            if (l === "samsung") {
+                window.open("telephone/Samsung.html");
+            }
+            if (m === "eastpak") {
+                window.open("sac/Eastpak.html");
+            }
+            if (n === "louis vuiton") {
+                window.open("sac/louisvuiton.html");
+            }
+            if (o === "ralph lauren") {
+                window.open("sac/Ralphlauren.html");
+            }
+            if (p === "sac") {
+                window.open("Sac.html");
+            }
+            if (q === "harry potter") {
+                window.open("livre/Harrypotter.html");
+            }
+            if (r === "naruto") {
+                window.open("livre/naruto.html");
+            }
+            if (s === "seigneur des anneaux") {
+                window.open("livre/sda.html");
+            }
+            if (t === "nike") {
+                window.open("chaussure/Nike1.html");
+            }
+            if (u === "nike back to the future") {
+                window.open("chaussure/Nikel.html");
+            }
+            if (v === "adidas") {
+                window.open("chaussure/Adidas.html");
+            }
+            if (w === "livre") {
+                window.open("Livre.html");
+            }
+            if (x === "telephone") {
+                window.open("Telephone.html");
+            }
+          
+            
+
+        }
+        </script>
+        <!--moteur de recherche fin-->
+        </body>
+         <!--banner-->
+         <div class="banner-box f-slide-3">
+        
+            <div class="banner-text-container">
+            <div class="banner-text">
+              <div style="width: 600px; padding-top:10px; padding-bottom:10px;border: 3px solid #A0A0A0; text-align: center;background:none;">
+                <span>Offre special</span>
+                <strong>100%<br/> Avec  <font>Code promo</font></strong>
+                <a href="page.html" class="banner-btn">Cliquez-ici</a>
+              </div>
+            </div>
+            </div>
+        
+        </div> 
+        
+       
+        
+       
+        <strong><center><P><HR SIZE="4">Meilleurs ventes</P></center></strong>
+          
+          <!-- L'objet parcourt 2px chaque 10ms -->
+        <center><a href="jeux video/Gears 5.html">  <img  src="logo/xboxone.PNG" WIDTH=194 HEIGHT=160 ></a>
+          
+          <a href="jeux video/Read dead redemption.html"><img  src="logo/shopping.png" WIDTH=194 HEIGHT=160></a>
+          <a href="jeux video/GTA V.html"> <img  src="logo/GTA-5-Xbox-One.jpg" WIDTH=194 HEIGHT=160></a>
+          <a href="pc/alienware.html"> <img  src="logo/awm.webp" WIDTH=194 HEIGHT=160></a>
+          <a href="vetement/maillot.html"><img  src="logo/maillot.jpg" WIDTH=194 HEIGHT=160></a>
+          <a href="voiture/Maybach.html"> <img  src="logo/maybach.jpg" WIDTH=194 HEIGHT=160></a>
+          <a href="film/starwars.html"> <img  src="logo/star-wars.jpg" WIDTH=194 HEIGHT=160></a>
+        </center>
+       <P><HR SIZE="4"></P>
+
+       <br> <div style="width: 200px; padding-top:20px; padding-bottom:10px;border: 3px solid #020000; text-align: center;background:none; float: right;">
+          <h4>Advert</h4>
+          <marquee SCROLLAMOUNT="10" >
+          <h></h>
+        <a href="https://www.westernunion.com" target="_blank"><img src="../web/logo/wu.jpg" border="0" alt="titre" style="width: 200px; height: 100px;"/></a>
+        <a href="https://www.paypal.com/fr/webapps/mpp/home" target="_blank"><img src="../web/logo/paypal.jpg" border="0" alt="titre" style="width: 200px; height: 100px;"/></a>
+        <a href="https://unibet.fr/" target="_blank"><img src="../web/logo/pub-unibet.jpg" border="0" alt="titre" style="width: 200px; height: 100px;"/></a>
+        <a href="https://www.pokerstars.fr/" target="_blank"><img src="../web/logo/pub-pokerstars.jpg" border="0" alt="titre" style="width: 200px; height: 100px;"/>
+        <a href="https://www.netflix.com/fr/" target="_blank"><img src="../web/logo/netflix.jpg" border="0" alt="titre" style="width: 200px; height: 100px;"/></a></marquee>
+        </div></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        
+        <h2><center>Nos Partenaire </center></h2> 
+        <div id='conteneur'>
+          
+          <ul1>
+            
+            <li1><img src="logo/ferrari1.jpg" width='204' height='204'></li1>
+            <li1><img src="logo/Ralph-Lauren-Emblème.png" width='204' height='204'></li1>
+            <li1><img src="logo/nikea.png" width='204' height='204'></li1>
+            <li1><img src="logo/b2b-logo-louisvuitton.jpg" width='204' height='204'></li1>
+            <li1><img src="logo/abf.png" width='204' height='204'></li1>
+            <li1><img src="logo/Symbole-Rolex.jpg" width='204' height='204'></li1>
+            <li1><img src="logo/Pagani-Logo.png" width='204' height='204'></li1>
+            <li1><img src="logo/logo_balenciaga.jpg" width='204' height='204'></li1>
+            
+          </ul1>
+        </div>
+
+
+        
+        
+        <br></br>
+            <br></br>
+            <br></br>
+            <section>
+            <div class="video">
+              <center><strong>Commercial spot</strong></center>
+              <iframe src="https://www.youtube.com/embed/f47LCcOQ2nk" allowfullscreen></iframe>
+            </div>
+            
+
+        <footer>
+          <p>&copy; Projet Web  By Srikanth COLLATY / Sylvain BUI </p>
+           
+            <footer >
+            <li3 ><a href='https://www.twitter.com'><img src="logo/logotype-social-twitter.png" alt="Twitter" width="30" height="30"></a></li3>
+        <li3><a href='https://www.facebook.com'><img src="logo/logo-circulaire-facebook.png" alt="Facebook" width="30" height="30"></a></li3>
+        <li3><a href='https://www.pinterest.com'><img src="logo/logo-social-pinterest.png" alt="Pinterest" width="30" height="30"></a></li3>
+        <li3><a href='https://www.instagram.com'><img src="logo/instagram.png" alt="Instagram" width="30" height="30"></a></li3>
+        <li3><a href='https://www.linkedin.com'><img src="logo/linkedin.png" alt="Linkedin" width="30" height="30"></a></li3>
+        <li3><a href='https://www.github.com'><img src="logo/github.png" alt="Github" width="30" height="30"></a></li3>
+        </footer >
+        </footer>
+    </body>
+</html>
